@@ -1,4 +1,4 @@
-# adl
+# ADL
 
 Fetal Health Monitoring is imperative to prevent complications during childbirth and ensure a timely medical intervention. Deep learning has revolutionised numerous fields, including medical imaging. This report presents a deep learning model designed to identify fetal intracranial structures during the 11th to 14th weeks of pregnancy using ultrasound imaging, and provide an automated process of standard and non-standard sagittal view classification.
 
