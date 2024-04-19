@@ -9,7 +9,7 @@ By harnessing the power of deep learning, we hope to improve the accuracy and sp
 Our solution consists of 2 models. The first model is called **StructureClassification** that does object localization of the 9 structures in the image. 
 The second model is called **SNSClassification** that classifies the image as standard or nonstandard.
 
-# Model 1: StructureClassification (Navigate to [branch](https://github.com/claudyAi/adl/tree/Structure-CLassification)
+# Model 1: StructureClassification (Navigate to [branch](https://github.com/claudyAi/adl/tree/Structure-CLassification))
 This model is trained on the dataset of Standard images. The input is standard images, structure name and bounding box coordinates of the structure from ObjectDetection.xlsx.
 It trains to recognise the location and identify the 9 structures. 9 class classification Output the image with a bounding box drawn on the identified structure.
 
