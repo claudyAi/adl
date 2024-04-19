@@ -13,8 +13,8 @@ The second model is called **SNSClassification** that classifies the image as st
 This model is trained on the dataset of Standard images. The input is standard images, structure name and bounding box coordinates of the structure from ObjectDetection.xlsx.
 It trains to recognise the location and identify the 9 structures. 9 class classification Output the image with a bounding box drawn on the identified structure.
 
+## Preparing the SNSClassification dataset for training
+Please ensure that you download the zip file folders from the [google drive](https://drive.google.com/file/d/1-ppPA9UHw9ZTBxyGmbWEyCgRNKTECC_6/view?usp=drive_link) and add it to the root folder of this directory before running the below code cell.
+
 # Model 2: SNSClassification branch (Current Branch)
 This model is trained on the dataset of Standard and Non-Standard images. The input is a mix of Standard and Non-Standard images with corresponding label. It trains to conduct 2 class classification to identify the image as standard or non-standard. Output is the image with label standard or non-standard.
-
-# Preparing the dataset for training
-Please ensure that you download the zip file folders from the [google drive](https://drive.google.com/file/d/1-ppPA9UHw9ZTBxyGmbWEyCgRNKTECC_6/view?usp=drive_link) and add it to the root folder of this directory before running the below code cell.
